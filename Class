@@ -1,0 +1,32 @@
+class Car:
+    def __init__(self, model, color,company,speed_limit):
+        self.color=color
+        self.model=model
+        self.speed_limit =  speed_limit
+        self.company=company
+
+    def start(self):
+       print("started")
+    
+    def stop(self):
+        print("stopped")
+
+    def accelerate(self):
+        print("accelerateed")
+        
+
+
+audi = Car ( "model", "black", "audi" , 200)
+
+#printing their attributes
+print(audi.model)
+print(audi.color)
+print(audi.company)
+print(audi.speed_limit)
+
+#printing their methods
+audi.start()
+audi.stop()
+audi.accelerate()
+
+   
